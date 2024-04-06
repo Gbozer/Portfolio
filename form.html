@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Application</title>
+       <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body> 
+        <h1>Job application Form</h1>
+        <p>Congratulations! you made the right choice for showing interest in our organisation, please fill out the form below
+             and submit, we will surely get back to you as soon as possible.</p>
+             <br>
+             <section id="job application form">
+             <br>
+             <h2>Fill in the required details</h2>
+            
+             <form id = "myform" action="">
+                <br>
+
+                <label for="name" >First Name:</label>
+            <br>
+                <input type="text"id="name"name="name"size="10" />
+                <br>
+                <label for="name"label> Last Name:</label>
+                <br>
+                <input type="text"id="name"name="name"size="10" />
+                <p id="nameError"class=error></p>
+
+                <form action="/submit" method="post"
+                <br>
+                <br>
+                
+                <label for="email"label> E-mail:</label>
+                <br>
+                <input type="text"id="email"name="E-mail">
+                <p id="emailError"class=error></p>
+                <br>
+                
+                <label for="name">Position of interest:</label>
+                <br>
+
+                <input type="text"id="name"name="name"size="12" />
+                <br>
+                <br>
+                
+                <label for="name"label>Your availability date:</label>
+                <input type="text"id="name"name="name"size="8" />
+                <br>
+                
+                <section>
+                <h2>Upload your resume here</h2>
+            
+                <action ="/search"method ="get">
+                
+                <form action="/upload"method= "post" enctype="multipart/form-data">
+                    <label for="file">Chose a file:</label>
+                    <input type="file"id="file"name="file"accept=".jpg, .png, .pdf">
+                    <button type="submit">upload</button>
+                    <br>
+                    <section id="dropdown"
+                    <h2></h2>Select job type that suits your status:</h2>
+                    <form action="select">
+                    <select id="job type" name = "Job type">
+                        <option value="part time">Part time</option>
+                        <option value="full time ">full time</option>
+                        <option value="Co-op ">Co-op</option>
+                    </select>
+                    <br>
+                    <h2></h2>Select location:</h2>
+                    <select id="abuja" name = "Abuja">
+                        <option value="abuja">Abuja</option>
+                        <option value="lagos ">Lagos</option>
+                        <option value="jos">Jos</option>
+                        <option value="benin">Benin</option>
+                        
+                    </select>
+                    <br>
+                    <br>
+                    <section id="referees"
+                    <P><b></b>Provide two referees<b></b></p>
+                    <br>
+                    <br>
+                <form action="/submit" method="post"
+<br>
+                <label for="name">Referee 1:</label>
+                <br>
+                <input type="text"id="name"name="name"size="18" />
+                <br>
+                <label for="name" >Referee 2 :</label>
+                <br>
+                 <input type="text"id="name"name="name"size="18" />
+
+                 <p><b>Reference E-mail</b></p>
+
+                 <form action="/submit" method="post">
+                    <br> 
+
+                    <input type="text" id = "email" name="email"placeholder = "ade.yemi@example.com">
+                    <br>
+                    <br>
+
+                    <input type="text" id = "email" name="email"placeholder = "ade.yemi@example.com">
+                    <br>
+                    <br>
+                   <!-- <button id ="myButton">Submit form</Button>-->
+                    <input type="submit"value="Submit Form"/>
+                        <input type="reset"value= "Reset Form"/>
+                                
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
+                                <footer>
+                                <a href="/pages/about.html"> back to my profile</a>
+                                <br>
+                                <a href="/pages/index.html"> back to first web Page</a>
+                                <br>
+                                <a href="/pages/contact.html"> back to my contact</a>
+                                </footer>
+                                
+                                <script src="/js/script.js"></script
+
+
+
+    </body>
+</html>
