@@ -1,27 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
- 
-    
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Personal Web Page</title>
-        <link rel ="stylesheet" href= "CSS/style.css">
-        <style>
-            section img{
-                width: 100px;
-                height: 0px;
-    
-                padding: 0, 20px;
-                margin: 10px;
-            }
-            gallery img{
-                width: 250px;
-                min-height: auto;
-                Padding: 15px
-            }
-    
-        </style>
+        <title>My Portfolio Web Page</title>
+        <link rel ="stylesheet" href= "./CSS/style.css">
     </head>
     <body>
        <!--This is the header section -->
@@ -30,7 +13,7 @@
             <h1>Welcome to my web page</h1>
             <nav>
                 <ul>
-                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="../pages/about.html">About</a></li>
                      <li><a href="pages/form.html">Form</a></li>
                      <li><a href="pages/contact.html">Contact</a></li>
                     </ul>
@@ -41,10 +24,10 @@
         <!--This is the main section -->
         <main>
     <section id="about">
-        <h2>Some team members</h2>
+        <h2>Members of team</h2>
        <div class="about-container">
-            <img src="../Portfolio/images/abel.png" alt="Abel">
-            <img src="../Portfolio/images/okon.png" alt="Okon">
+        <img class="myPix" src= "../images/abel.png" alt="Abel">
+        <img class="myPix" src= "../images/Okon.png" alt="Okon">
             <div class="about-text">
                 <p>You are at liberty to navigate through web pages.</p>
                 <p>My profile is availabe on <a href="pages/about.html">about</a> Page</p>
@@ -54,16 +37,15 @@
     <hr/>
 
 
-    </section>
-            <gallery>
-                <h2>Team members in action</h2>
-               
-                <img src ="../Portfolio/images/brainstorm4.png" alt="Team members">
-                <img src="../Portfolio/images/brainstorm3.png" alt="Team members">
-                <img src ="../Portfolio/images/brainstorm1.png" alt="Team members">
-                <img src ="../Portfolio/images/brainstorm3.png" alt="Team members">
-            
-        </gallery>
+    <section id="gallery">
+                <h2>Team members in action</h2>  
+                <div class="gallery">
+                    <img src="../images/brainstorm4.png" alt="Team members">
+                    <img src="../images/brainstorm3.png" alt="Team members">
+                    <img src ="../images/brainstorm1.png" alt="Team members">
+                    <img src ="../images/brainstorm3.png" alt="Team members">
+                </div>
+            </section>
 
     </main>
 
@@ -76,10 +58,10 @@
         <footer>
         <p>&copy; 2024 website</p>
 
-        <a href="pages/contact.html">Contact page</a>
+        <a href="../pages/contact.html">Contact page</a>
     </footer>
     
-       <script src="js/script.js"></script>
+       <script src="../js/script.js"></script>
         
 
     </body>

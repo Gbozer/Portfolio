@@ -45,11 +45,9 @@ section{
     margin-bottom: 20px;
     padding: 20px;
 }
-about h2 {text-align: center;
-}
 .about-container{
-    display:  flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 footer{
@@ -59,33 +57,48 @@ footer{
     padding: 20px 0;
 }
     footer a{
-        color: #fff;;
+        color: #fff;
     }
-media{
-    max-width:760px 
-    about-container
+@media(max-width: 760px){
+    .about-container{
         flex-direction: column;
     }
-    mypix{
-        margin: 0 auto;
+}
+    .myPix{
+        max-width: 200px;
     }
-    #gallery{
-        #about h2{
+    #about h2{
         text-align: center;
-        }
+    }
+    .myPix {
+        margin: o auto;
+        padding: 5%;
+    }
+    .about-text{
+        text-align: center;
+    }
+    #gallery h2{
+        text-align: center;
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .gallerry{
+        margin-bottom: 20px;
+    }
+    form label{
+        display: block;
+        margin-bottom: 10px;
     }
 
 form input, form textarea{
     width: 70%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border: 1px solid #ccc;
     border-radius: 10px;   
-    
-    form label{
-        display: block;
-        margin-bottom: 10px;
-    }
 }
 form input[type="submit"]{
     background-color:#333;

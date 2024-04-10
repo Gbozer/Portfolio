@@ -16,7 +16,7 @@ form.addEventListener("submit",function(event){
         nameError.textContent = "Please correct errors on form!";
         valid = false;
 
-        setTimeout(() =>{
+        setTimeout(()=>{
             nameError.textContent ="";
         },3000);
     }
