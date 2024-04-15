@@ -65,14 +65,14 @@ footer{
     }
 }
     .myPix{
-        max-width: 200px;
+        max-width: 150px;
     }
     #about h2{
         text-align: center;
     }
     .myPix {
         margin: o auto;
-        padding: 5%;
+        padding: 1%;
     }
     .about-text{
         text-align: center;
