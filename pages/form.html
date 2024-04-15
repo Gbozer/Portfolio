@@ -16,31 +16,22 @@
              <section id="job application form">
              <br>
              <h2>Fill in the required details</h2>
-            
              <form id="myForm" action="">
-                <br>
-
                 <label for="name" >First Name:</label>
-            <br>
                 <input type="text"id="name"name="name"size="10" />
-                <br>
+                
                 <label for="name"label> Last Name:</label>
-                <br>
                 <input type="text"id="name"name="name"size="10" />
                 <p id="nameError"class="error"></p>
 
-                <form action="/submit" method="post"
-                <br>
-                <br>
-                
+                <!--<form action="/submit" method="post"-->
+             <br>
                 <label for="email"label> E-mail:</label>
-                <br>
                 <input type="text"id="email"name="E-mail">
                 <p id="emailError"class="error"></p>
-                <br>
                 
                 <label for="name">Position of interest:</label>
-                <br>
+                
 
                 <input type="text"id="name"name="name"size="12" />
                 <br>
@@ -49,8 +40,7 @@
                 <label for="name"label>Your availability date:</label>
                 <input type="text"id="name"name="name"size="8" />
                 <br>
-                
-                <section>
+            
                 <h2>Upload your resume here</h2>
             
                 <action ="/search"method ="get">
@@ -77,12 +67,14 @@
                         <option value="benin">Benin</option>
                         
                     </select>
+                    </form>
                     <br>
                     <br>
                     <section id="referees"
-                    <P><b></b>Provide two referees<b></b></p>
-                    <br>
-                    <br>
+                    <form id="myForm" action="">
+                    <P><b>Provide two referees</b></p>
+                    
+                    
                 <form action="/submit" method="post"
 <br>
                 <label for="name">Referee 1:</label>
@@ -105,11 +97,17 @@
 
                     <input type="text" id = "email" name="email"placeholder = "ade.yemi@example.com">
                     <p id="emailError"class="error"></p>
+                    </form>
+                </select>
+                    
+                    <br>
+        
+                   <button id ="myButton">Submit form</Button>
+                    <!--<input type="reset"value="Reset Form"/>-->
+                    
                     <br>
                     <br>
-                   <!-- <button id ="myButton">Submit form</Button>-->
-                    <input type="submit"value="Submit Form"/>
-                        <input type="reset"value= "Reset Form"/>
+                        <button="reset"value= "Reset Button"/>
                                 
                                 <br>
                                 <br>
@@ -124,7 +122,7 @@
                                 <a href="../pages/contact.html">contact Page</a>
                                 </footer>
                                 
-                                <script src="../js/script.js"></script
+                                <script src = "../js/script.js"></script
 
 
 
